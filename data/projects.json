@@ -1,0 +1,38 @@
+[
+  {
+    "name": "VERIFY_HYPERFLOW_FRESH",
+    "short_summary": "Reads Facebook DMs, extracts URLs (YouTube, TikTok, Instagram), collects metadata and stores it in a Google Sheet."
+  },
+  {
+    "name": "YouTube Cron Job",
+    "short_summary": "Fetches a list of YouTube channel IDs, extracts videos from the past 3 days, gathers metadata into a Google Sheet, and emails a daily summary."
+  },
+  {
+    "name": "Webform Submission Automation",
+    "short_summary": "Fetches webform URLs and field data, fills and submits forms automatically using Browserless."
+  },
+  {
+    "name": "Typeform Submission Automation",
+    "short_summary": "Fetches Typeform URLs and field data, fills and submits Typeform forms automatically using Browserless."
+  },
+  {
+    "name": "Instagram Automatic Comments Generator",
+    "short_summary": "Triggers on comments for a specific user, filters spam/flagged comments, generates appropriate replies using vector data, and posts replies via the Facebook Graph API."
+  },
+  {
+    "name": "Asana Task Automatic Scheduler",
+    "short_summary": "Triggers on Slack messages and generates Asana tasks using pre-existing blueprints."
+  },
+  {
+    "name": "Events Embedder",
+    "short_summary": "Runs every 1-3 hours, fetches new events, stores them in Supabase, and generates embedding vectors for each new event."
+  },
+  {
+    "name": "Selly Vector Store",
+    "short_summary": "Runs weekly to fetch new rows, store them in Supabase, and generate embedding vectors for each row."
+  },
+  {
+    "name": "Dana Dairy AI Chatbot",
+    "short_summary": "On incoming messages, discovers relevant providers via Apify actors, extracts information, stores it in a Google Sheet, and generates context-aware replies."
+  }
+]

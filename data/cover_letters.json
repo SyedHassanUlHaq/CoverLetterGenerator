@@ -1,0 +1,42 @@
+[
+  {
+    "id": "canvas-ai-001",
+    "job_title": "Freelance Full-Stack AI & Canvas LMS Developer",
+    "job_description": "We are looking for an expert Freelance Full-Stack AI & Canvas LMS Developer to lead the end-to-end development of an innovative AI Tutor SaaS platform and its deep integration into the Canvas Learning Management System.\n\nThis is a critical, hands-on role where you will architect a scalable AI service and simultaneously act as the Canvas expert to ensure a seamless, native user experience.\n\nYour mission is twofold:\n1. Build a robust, API-first AI backend service from the ground up.\n2. Develop and integrate a custom chatbot widget directly into the Canvas LMS interface, ensuring it communicates effectively with both our AI API and the native Canvas APIs.\n\n[remainder omitted for brevity in JSON]",
+    "cover_letter": "Hi Seruni, 𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝗲𝘃𝗶𝗲𝘄 𝘀𝗼𝗺𝗲 𝗼𝗳 𝗺𝘆 𝗽𝗿𝗲𝘃𝗶𝗼𝘂𝘀 𝘄𝗼𝗿𝗸 𝗮𝗻𝗱 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗺𝘆 𝗚𝗶𝘁𝗛𝘂𝗯 : https://github.com/AbdulRauf-Sidd\n\n𝗜 𝗯𝘂𝗶𝗹𝗱 𝘀𝗰𝗮𝗹𝗮𝗯𝗹𝗲 𝗔𝗜-𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗦𝗮𝗮𝗦 𝗮𝗽𝗽𝘀 𝗮𝗻𝗱 𝗵𝗮𝘃𝗲 𝗵𝗮𝗻𝗱𝘀-𝗼𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲 𝗶𝗻 𝗖𝗮𝗻𝘃𝗮𝘀 𝗟𝗠𝗦 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝘂𝘀𝗶𝗻𝗴 𝗟𝗧𝗜 𝟭.𝟯. I’ve previously implemented RAG-based tutoring chatbots using LangChain and built secure public APIs for SaaS platforms, so I understand the balance between AI accuracy, compliance, and LMS-specific UX.\n\n𝗠𝘆 𝗽𝗹𝗮𝗻 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗷𝗲𝗰𝘁:\nI’ll architect a multi-tenant AI tutoring backend (Node.js or Python, PostgreSQL, Dockerized) with a clean public API for all core tutoring features. Using LangChain/LangGraph, I’ll build a RAG pipeline that retrieves context from Canvas (assignments, materials) to keep answers aligned with the course. On the frontend, I’ll develop a Canvas-native chatbot widget (JS, HTML, CSS), integrated securely via LTI 1.3 for context-aware interactions. The widget will communicate bi-directionally with both the Canvas API and our AI backend for real-time responses.\n\nIf this sounds aligned, I’d love to discuss your current Canvas setup and Phase 1 priorities before mapping out the full tech roadmap.\n\nBest regards,\nAbdulRauf S.",
+    "tags": ["canvas", "lti", "ai", "saas", "langchain"],
+    "outcome": "example"
+  },
+  {
+    "id": "close-n8n-001",
+    "job_title": "AI-powered Appointment Reminder Agent (n8n + Twilio + ElevenLabs + Close.com)",
+    "job_description": "We are seeking a skilled automation expert to develop an AI-powered appointment reminder agent using a specific set of tools: n8n for the core workflow automation, Twilio for placing calls, ElevenLabs for generating high-quality text-to-speech voice, and Close.com as our CRM. The primary goal of this project is to automate our appointment reminder process to reduce no-shows. The n8n workflow will trigger calls to business owners before their scheduled meetings, intelligently handle different call outcomes, and log all activity back into our Close.com CRM.",
+    "cover_letter": "Hello Andrea, 𝗜 𝗰𝗮𝗻 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂 𝗱𝗲𝘀𝗶𝗴𝗻 𝗮 𝗿𝗲𝗺𝗶𝗻𝗱𝗲𝗿 𝗮𝗴𝗲𝗻𝘁 𝘁𝗵𝗮𝘁 𝗳𝗲𝗲𝗹𝘀 𝗻𝗮𝘁𝘂𝗿𝗮𝗹, 𝗵𝗮𝗻𝗱𝗹𝗲𝘀 𝗲𝗱𝗴𝗲 𝗰𝗮𝘀𝗲𝘀 𝗶𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝘁𝗹𝘆, 𝗮𝗻𝗱 𝗹𝗼𝗴𝘀 𝗲𝘃𝗲𝗿𝘆 𝘁𝗼𝘂𝗰𝗵𝗽𝗼𝗶𝗻𝘁 𝗶𝗻𝘁𝗼 𝗖𝗹𝗼𝘀𝗲.𝗰𝗼𝗺.\\n\\n𝗠𝘆 𝗥𝗲𝗹𝗲𝘃𝗮𝗻𝘁 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲\\n- Built n8n automations for lead engagement and pipeline management.\\n- Integrated Twilio voice + SMS workflows, including call status handling.\\n\\n𝗠𝘆 𝗽𝗹𝗮𝗻 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗷𝗲𝗰𝘁:\\nI’ll create a robust n8n flow that triggers based on Close.com appointments, generates a natural voice message with ElevenLabs, and initiates a Twilio call. The system will detect outcomes (answered, voicemail, missed), apply the right logic, and push detailed logs back to Close. This will give you hands-free, reliable reminders with full CRM traceability.\\n\\n- 𝗜 𝗵𝗮𝘃𝗲 𝗮𝘁𝘁𝗮𝗰𝗵𝗲𝗱 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗶𝗻 𝗵𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀 — please have a look.\\n\\nLets have a quick chat to get started.\\n\\nBest Regards,\\nAbdulRauf S.",
+    "tags": ["n8n", "twilio", "close", "elevenlabs", "automation"],
+    "outcome": "example"
+  },
+  {
+    "id": "vapi-twilio-001",
+    "job_title": "Vapi/Twilio/Make AI Assistant — Integration & Prompt Engineering",
+    "job_description": "NO AI RESPONSES! In your proposal, tell me how you can help to show your capabilities... I created an AI assistant using Vapi, Twilio, Make and I need help developing prompts and integrating the assistant with various business platforms, including phones, websites, and email systems. The ideal candidate will have experience in AI implementation and be fluent in English speaking and writing. This project can turn into a long-term project because the person who can get this done for me can help me develop new assistants as I start to sell it to other companies in my industry.",
+    "cover_letter": "Hello Aaron, 𝗬𝗼𝘂’𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗯𝘂𝗶𝗹𝘁 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗶𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝘃𝗲 𝘄𝗶𝘁𝗵 𝗩𝗮𝗽𝗶, 𝗧𝘄𝗶𝗹𝗶𝗼, 𝗮𝗻𝗱 𝗠𝗮𝗸𝗲 𝗮𝗻𝗱 𝗜 𝗰𝗮𝗻 𝗵𝗲𝗹𝗽 𝘁𝗮𝗸𝗲 𝗶𝘁 𝗳𝘂𝗿𝘁𝗵𝗲𝗿.\\n\\nI specialize in AI agent design, system integrations, and automation logic. I've worked on custom voice + chat agents using tools like Vapi, OpenAI, Make, and Zapier—often integrating them into phone systems, websites, CRMs, and email platforms like Outlook/Gmail via API and webhook flows.\\n\\n𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝗲𝘃𝗶𝗲𝘄 𝘀𝗼𝗺𝗲 𝗼𝗳 𝗺𝘆 𝗽𝗿𝗲𝘃𝗶𝗼𝘂𝘀 𝘄𝗼𝗿𝗸 𝗮𝗻𝗱 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗺𝘆 𝗚𝗶𝘁𝗛𝘂𝗯 : https://github.com/AbdulRauf-Sidd\\n\\n𝗙𝗼𝗿 𝘆𝗼𝘂𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁, 𝗜’𝗹𝗹: Refine the prompt stack for clarity, fallback handling, and tone; Create modular flows that adapt to business contexts (lead gen, support, reminders, etc.); Integrate across channels (Twilio voice, website widgets, email auto-replies); and Set up logging, routing, and fallback alerts for real-world use.\\n\\nI’m fluent in English, technical writing, and UX-oriented design—so you’ll get well-documented prompts and clean flows you can reuse and resell. Let’s make your assistant solid enough to scale.\\n\\nBest regards,\\nAbdulRauf S.",
+    "tags": ["vapi", "twilio", "make", "integration", "prompts"],
+    "outcome": "example"
+  },
+  {
+    "id": "bland-ai-001",
+    "job_title": "Bland AI — Configuration & Deployment Expert",
+    "job_description": "We are seeking a knowledgeable freelancer with expertise in Bland AI to assist in configuring and deploying a specific pathway for our project. The ideal candidate should have a strong understanding of AI frameworks and be able to troubleshoot any issues that may arise during the deployment process. You will work closely with our team to ensure that all requirements are met efficiently and effectively.",
+    "cover_letter": "Hi Karim, 𝗜 𝗵𝗮𝘃𝗲 𝗵𝗮𝗻𝗱𝘀-𝗼𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗳𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝗱𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁, including configuring custom pathways and troubleshooting deployment issues for real-time AI systems.\n\n𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝗲𝘃𝗶𝗲𝘄 𝘀𝗼𝗺𝗲 𝗼𝗳 𝗺𝘆 𝗽𝗿𝗲𝘃𝗶𝗼𝘂𝘀 𝘄𝗼𝗿𝗸 𝗮𝗻𝗱 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗺𝘆 𝗚𝗶𝘁𝗛𝘂𝗯 : https://github.com/AbdulRauf-Sidd\n\nI’ve worked on similar agent-based setups where stability, prompt accuracy, and API integrations were critical. My approach focuses on clean configuration, testing pathways step by step, and ensuring the deployment is stable and scalable before handoff.\n\n𝗠𝘆 𝗽𝗹𝗮𝗻 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗷𝗲𝗰𝘁: I will review your existing Bland AI setup & requirements and will configure the specific pathway and ensure it aligns with your intended logic. I will Test end-to-end (inputs, outputs, and fallback handling) and will document everything so your team can maintain or tweak it later.\n\nI can jump in quickly and collaborate with your team to get this done efficiently. If needed, I can also suggest optimization tips for future scaling.\n\nBest regards,\nAbdulRauf S.",
+    "tags": ["bland-ai", "deployment", "agents", "configuration"],
+    "outcome": "example"
+  },
+  {
+    "id": "bland-ai-outbound-001",
+    "job_title": "Bland.ai Outbound Voice Bot — 1-hour Troubleshoot (Immediate)",
+    "job_description": "Hello, looking for someone to help me setup bland.ai voice bot to make outbound calls. Need 1 hour of your time over screen share to troubleshoot. **Must be able to do the work right now**",
+    "cover_letter": "Hello Blake, 𝗜’𝗺 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝘁𝗵𝗶𝘀 𝗺𝗼𝗺𝗲𝗻𝘁 𝗮𝗻𝗱 𝗰𝗮𝗻 𝗱𝗲𝗱𝗶𝗰𝗮𝘁𝗲 𝘁𝗵𝗲 𝗳𝘂𝗹𝗹 𝗵𝗼𝘂𝗿 𝘁𝗼 𝗴𝗲𝘁𝘁𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘀𝘆𝘀𝘁𝗲𝗺 𝘄𝗼𝗿𝗸𝗶𝗻𝗴.\n\n- 𝗜 𝗵𝗮𝘃𝗲 𝘄𝗼𝗿𝗸𝗲𝗱 𝗼𝗻 𝗕𝗹𝗮𝗻𝗱 𝗔𝗶; I have attached projects in highlights — please have a look.\n\nI can help you set up your bland.ai outbound calling voice bot and troubleshoot the integration over a live screen share session right now. I’ve worked with outbound AI voice agents before (Twilio, Vapi, Retell AI, and bland.ai), including setup, webhook configuration, and testing call flows.\n\nLet’s get started right away.\n\nBest Regards,\nAbdulRauf S.",
+    "tags": ["bland-ai","voice","outbound","screen-share"],
+    "outcome": "example"
+  }
+]
