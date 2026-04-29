@@ -52,6 +52,21 @@ def _try_parse_json(text: str):
     return None
 
 
+def _remove_hyphens(text):
+    """Remove all em-dashes and hyphens used as dashes from text.
+    
+    Removes em-dashes (—) but preserves hyphens in hyphenated words.
+    """
+    if not text or not isinstance(text, str):
+        return text
+    # Remove em-dashes (—)
+    text = text.replace('—', '')
+    # Remove hyphens that appear as sentence-level dashes (surrounded by spaces)
+    # This regex finds " - " or " - " patterns and replaces with just a space
+    text = re.sub(r'\s+–\s+|\s+—\s+|\s+-\s+(?=[A-Z])', ' ', text)
+    return text
+
+
 def generate_proposal(job_title, job_description, projects=None, example_cover_letters=None, min_words=150, max_words=220, temperature=0.2, max_output_tokens=512):
     """Generate a proposal using the prompt builder and Mistral.
 
@@ -84,11 +99,15 @@ def generate_proposal(job_title, job_description, projects=None, example_cover_l
             nested = _try_parse_json(cl)
             if nested and isinstance(nested, dict) and "cover_letter" in nested:
                 # prefer the inner cover_letter text and merge other fields if present
-                parsed["cover_letter"] = nested.get("cover_letter")
+                parsed["cover_letter"] = _remove_hyphens(nested.get("cover_letter"))
                 if nested.get("used_projects"):
                     parsed.setdefault("used_projects", []).extend(nested.get("used_projects"))
                 if nested.get("clarifying_question") and not parsed.get("clarifying_question"):
                     parsed["clarifying_question"] = nested.get("clarifying_question")
+            else:
+                parsed["cover_letter"] = _remove_hyphens(cl)
+        else:
+            parsed["cover_letter"] = _remove_hyphens(cl)
         return parsed
 
     # If the model returned a JSON-like string embedded in text, attempt to extract it
@@ -99,7 +118,9 @@ def generate_proposal(job_title, job_description, projects=None, example_cover_l
         val = m.group(1)
         # unescape common sequences
         val = val.replace('\\n', '\n').replace('\\"', '"')
+        val = _remove_hyphens(val)
         return {"cover_letter": val, "used_projects": [], "clarifying_question": None}
 
     # Final fallback: return raw text as cover_letter
+    text = _remove_hyphens(text)
     return {"cover_letter": text, "used_projects": [], "clarifying_question": None}
